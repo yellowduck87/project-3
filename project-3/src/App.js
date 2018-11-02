@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import jumbotron from './components/header'
 import './App.css';
 import Nav from './components/nav/nav'
 import Jumbotron from './components/header/header';
