@@ -3,7 +3,7 @@ const path = require("path");
 
 const PORT = process.env.PORT || 3001;
 const app = express();
-const apiRoutes = require("./routes/apiRoutes");
+// const apiRoutes = require("./routes/apiRoutes");
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -13,7 +13,7 @@ if (process.env.NODE_ENV === "production") {
 }
 mongoose.connect(
   process.env.MONGODB_URI ||
-  "mongodb://localhost/nytarticles"
+  "mongodb://localhost/project-3"
 );
 
 
