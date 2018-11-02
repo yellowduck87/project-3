@@ -1,0 +1,17 @@
+.jumbotron {
+    background-color: #ffffff;
+    /* min-height: 100vh; */
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    border-bottom: #dddddd 2px solid;
+  }
+  
+  .guirys-link {
+    color: #61dafb;
+    font-size: 72px;
+    text-align: center;
+  }

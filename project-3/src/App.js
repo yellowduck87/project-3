@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import logo from './guirys_logo.png';
+
+import jumbotron from './components/header'
 import './App.css';
+import Nav from './components/nav/nav'
+import Jumbotron from './components/header/header';
 
 class App extends Component {
   render() {
     return (
-
-      <div className="jumbotron">
-        <img src={logo} alt="logo"/>
-        <a className="guirys-link" href="#">Guiry's Color Source</a>
+      <div>
+      <Jumbotron/>
+      <Nav/>
       </div>
       
     );

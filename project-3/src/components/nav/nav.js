@@ -1,12 +1,24 @@
-import React, { Component } from 'react'
+import React from "react";
+// import "./Nav.css";
 
-export const Nav = props => {
-    <nav className='nav.navbar.navbar-expand-lg.navbar-dark bg-primary'>
-      <a href='/' className='navbar-brand'>
-      {props.children}
-      </a>
-    </nav>
-  
-  }
-  
-  export default Nav;
+const Nav = () => (
+  <nav className="navbar navbar-dark bg-dark">
+    <a className="navbar-brand" href="/">
+      Art 
+    </a>
+    <a className="navbar-brand" href="/">
+      Paint
+    </a>
+    <a className="navbar-brand" href="/">
+      Decor 
+    </a>
+    <a className="navbar-brand" href="/">
+      FAQ
+    </a>
+    <a className="navbar-brand" href="/">
+      Contact Us 
+    </a>
+  </nav>
+);
+
+export default Nav;
